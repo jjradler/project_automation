@@ -26,10 +26,10 @@ docfiles_gen () {
 
     # COPY OVER THE DOCUMENTATION TEMPLATES
     echo "COPYING OVER DOCUMENTATION TEMPLATES..."
-    `cp -v '${db}/Code/homebuilt_tools/scripts/project_automation/documentation_templates/README.md" "${ppath}'`
-    `cp -v '${db}/Code/homebuilt_tools/scripts/project_automation/documentation_templates/TODO.md" "${ppath}'`
-    `cp -v '${db}/Code/homebuilt_tools/scripts/project_automation/documentation_templates/COLLABORATORS.md" "${ppath}'`
-    `cp -v '${db}/Code/homebuilt_tools/scripts/project_automation/documentation_templates/LICENSE" "${ppath}'`
+    `cp -v '../documentation_templates/README.md" "${ppath}'`
+    `cp -v '../documentation_templates/TODO.md" "${ppath}'`
+    `cp -v '../documentation_templates/COLLABORATORS.md" "${ppath}'`
+    `cp -v '../documentation_templates/LICENSE" "${ppath}'`
 
 
 
